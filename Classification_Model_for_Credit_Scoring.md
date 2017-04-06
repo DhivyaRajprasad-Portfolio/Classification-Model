@@ -1,4 +1,4 @@
-Building a Classification Model for Credit Scoring using ML Techniques- Techniques Used: GLM, Trees, GAM,LDA and QDA
+Building a Classification Model for Credit Scoring using ML Techniques- Techniques Used: GLM, Trees, GAM,LDA and SVM
 ================
 
 -   [References](#references)
@@ -546,7 +546,7 @@ creditcost(credit.test$response, fittedGAM.outsample)
     ## [1] 1.364
 
 Linear Discriminant Analysis
-============================
+----------------------------
 
 We use linear discriminant analysis as a classification technique with certain assumptions, the underlying distribution is Gaussian or normal and the output has a linear relationship with the predictors. The performance of LDA depends on these given assumptions.
 
@@ -633,7 +633,7 @@ creditcost(credit.test$response, pred.lda.out)
 We find that the performance between test and training data to be comparable and hence a good indicator of the underlying relationship between the predictors and response might be linear and may follow the assumptions made by LDA.
 
 Support Vector Machines
-=======================
+-----------------------
 
 Support vector machine (SVM) is touted as one of the best off-the-shelf classifying algorithm. It handles non-linearity, well-regularized, has very few parameters(support vectors) and is very fast.
 
